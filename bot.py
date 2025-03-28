@@ -1,8 +1,9 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher, types
-from aiogram.fsm.filters import Command
-from aiogram.fsm.storage.memory import MemoryStorage
+from aiogram.filters import Command
+from aiogram.fsm import State, FSMContext
+from aiogram.fsm.state import StatesGroup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 
