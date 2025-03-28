@@ -1,1 +1,2 @@
 aiogram==2.23
+magic-filter==0.2.0
